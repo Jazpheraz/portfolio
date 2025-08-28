@@ -43,9 +43,12 @@ nav ul a:hover{
 .logo{
     font-size: 2em;
     color: white;
-    font-weight: 800;
+    font-weight: 550;
     opacity: 0.8;
     transition: 0.2s ease-in-out;
+}
+.logo span{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 .logo:hover{
     opacity: 1;
