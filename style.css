@@ -359,6 +359,10 @@ footer{
 .social-icons i:hover{
     color: white;
 }
+.social-icons a{
+    color: inherit;
+    text-decoration: none;
+}
 
 @media(max-width:768px){
     nav{
@@ -485,10 +489,26 @@ footer{
         border-radius: 0.5em;
         box-sizing: border-box;
     }
-
     footer{
         flex-direction: column;
         gap: 5em;
         align-items: baseline;
+    }
+    .col-right .social-icons{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        gap: 0;
+        padding: 1em 0;
+    }
+    .col-right .social-icons i{
+        font-size: 2.5em;
+    }
+    .social-icons a{
+        color: inherit;
+        text-decoration: none;
+    }
+    .social-icons a:hover{
+        opacity: 0.8;
     }
 }
