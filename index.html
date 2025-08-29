@@ -6,6 +6,7 @@
     <title>Jasper's Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
 </head>
 <body>
     
@@ -115,23 +116,25 @@
     <section id="contact">
         <h1 class="header"><span>Contact</span></h1>
 
-        <form action="#">
+        <form action="https://formsubmit.co/jaspermikegalsim02@gmail.com" method="POST">
             <div class="input-box">
                 <span>Full Name</span>
-                <input type="text" placeholder="Enter Your Full Name">
+                <input type="text" name="name" placeholder="Enter Your Full Name" required>
             </div>
 
             <div class="input-box">
                 <span>Your Email</span>
-                <input type="text" placeholder="Enter Your Email">
+                <input type="email" name="email" placeholder="Enter Your Email" required>
             </div>
 
             <div class="input-box">
                 <span>Your Message</span>
-                <input type="text" placeholder="Enter Your Message">
+                <input type="text" name="message" placeholder="Enter Your Message" required>
             </div>
 
-            <div class="btn">Submit</div>
+            <input type="hidden" name="_captcha" value="false">
+            
+            <button type="submit" class="btn">Submit</button>
         </form>
     </section>
 
