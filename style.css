@@ -275,10 +275,10 @@ footer{
 .col-box{
     display: flex;
     align-items: center;
-    gap: 10em;
+    gap: 2em;
 }
 .col-box i{
-    font-size: 2em;
+    font-size: 1.5em;
 }
 .col-box span{
     font-size: 1.2em;
@@ -309,7 +309,10 @@ footer{
     color: white;
 }
 
-@media(max-width:950px){
+@media(max-width:768px){
+    nav{
+        padding: 2em 1em;
+    }
     section{
         padding: 8em 15%;
     }
@@ -318,6 +321,23 @@ footer{
     }
     #menu{
         display: block;
+        padding: 2.5em;
+        position: absolute;
+        right: -2em;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .col-left{
+        width: 100%;
+        padding: 0 1em;
+    }
+    .col-box{
+        width: 100%;
+        gap: 1em;
+    }
+    footer{
+        padding: 3em 5%;
+        gap: 3em;
     }
     .links{
         position: absolute;
