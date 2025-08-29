@@ -10,7 +10,9 @@ real time update portfolio
 
 6. Fixed view for Android.
 7. Updated Contact Form, it is fully functional now.
-8. Fixed the space for menu icon in android.
+8. Fixed the space for menu icon in mobiles.
 9. Updated text's color
 10. Separated color on footer (icons and texts)
 11. Changed 'Services' to 'Projects'
+12. Created social links to each social media icons.
+13. Created gap between social media icons for mobiles
