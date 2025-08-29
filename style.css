@@ -69,7 +69,7 @@ nav ul a:hover{
     color: var(--background);
 }
 span{
-    background: linear-gradient(to right, #6cff52, #3ec5ff);
+    background: linear-gradient(to right, #a7fbf5, #0674c3);
     background-clip: text;
     color: transparent;
 }
@@ -131,7 +131,7 @@ section{
     background-color: var(--background);
 }
 ::-webkit-scrollbar-thumb{
-    background: linear-gradient(to bottom, #6cff52, #3ec5ff);
+    background: linear-gradient(to bottom, #a7fbf5, #0674c3);
 }
 
 #about{
@@ -188,7 +188,7 @@ section{
 .about-box h2{
     font-size: 2.5em;
 }
-#services{
+#projects{
     background-color: var(--background);
 }
 .header{
@@ -196,7 +196,7 @@ section{
     font-size: 4.2em;
     margin: 0.5em 0;
 }
-.services-container{
+.projects-container{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
     gap: 2em;
@@ -248,7 +248,7 @@ form .input-box{
 }
 form input{
     font-size: 1.3em;
-    padding: 1em 5em;
+    padding: 1em 2em;
     border-radius: 0.5em;
     border: none;
     outline: none;
@@ -271,6 +271,40 @@ form button.btn{
 form button.btn:hover{
     background-color: white;
     color: var(--background);
+}
+form textarea{
+    font-size: 1.3em;
+    padding: 1em 2em;
+    border-radius: 1em;
+    border: none;
+    outline: none;
+    width: 100%;
+    min-height: 130px;
+    max-height: 500px;
+    resize: vertical;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    cursor: text;
+}
+form textarea::-webkit-scrollbar-thumb{
+    background: linear-gradient(to bottom, #a7fbf5, #0674c3);
+    border-radius: 5px;
+    cursor: pointer;
+}
+form textarea::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+}
+form textarea:focus{
+    background: rgb(229, 229, 229);
+}
+form .input-box{
+    width: 70%;
+    max-width: 800px;
+}
+form input, form textarea{
+    width: 100%;
+    box-sizing: border-box;
 }
 footer{
     display: flex;
@@ -295,8 +329,10 @@ footer{
 .col-box i{
     font-size: 1.5em;
 }
-.col-box span{
-    font-size: 1.2em;
+.col-box span:last-child{
+    font-size: 1.1em;
+    color: rgb(217, 236, 254);
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .col-right{
@@ -420,7 +456,7 @@ footer{
     #about .skills{
         gap: 3em;
     }
-    #services .header{
+    #projects .header{
         font-size: 3em;
     }
 
@@ -432,7 +468,22 @@ footer{
         font-size: 1.2em;
     }
     .input-box input{
-        padding: 0.5em 1em;
+        font-size: 1em;
+        padding: 0.5em 0.5em;
+        width: 100%;
+    }
+    #contact form .input-box{
+        width: 90%;
+    }
+    #contact form textarea{
+        font-size: 1em;
+        padding: 0.5em 0.5em;
+        width: 100%;
+        min-height: 130px;
+        max-height: 500px;
+        resize: vertical;
+        border-radius: 0.5em;
+        box-sizing: border-box;
     }
 
     footer{
