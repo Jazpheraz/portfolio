@@ -10,3 +10,4 @@ real time update portfolio
 
 6. Fixed view for Android.
 7. Updated Contact Form, it is fully functional now.
+8. Fixed the space for menu icon in android.
