@@ -336,11 +336,17 @@ footer{
     }
     #menu{
         display: block;
-        padding: 2.5em;
         position: absolute;
-        right: -2em;
+        padding: 2.5em;
+        right: 0.5em;
         top: 50%;
         transform: translateY(-50%);
+        padding: 0;
+        width: 1em;
+        height: 1em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .col-left{
         width: 100%;
