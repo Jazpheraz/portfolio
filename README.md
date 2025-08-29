@@ -8,4 +8,5 @@ real time update portfolio
 4. Adjusted font size on letter 'Jasper' logo.
 5. Adjusted font family for letter 'Jasper' logo.
 
-6. Fixed view for Android
+6. Fixed view for Android.
+7. Updated Contact Form, it is fully functional now.
