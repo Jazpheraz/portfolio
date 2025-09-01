@@ -363,7 +363,7 @@ footer{
     color: inherit;
     text-decoration: none;
 }
-#hire{
+#feedback{
     background-color: var(--second-background);
     min-height: 100vh;
     display: flex;
@@ -373,14 +373,14 @@ footer{
     gap: 2em;
     padding: 4em 2em;
 }
-#hire .input-box{
+#feedback .input-box{
     display: flex;
     flex-direction: column;
     gap: 0.5em;
     width: 180%;
     max-width: 800px;
 }
-#hire input{
+#feedback input{
     font-size: 1em;
     padding: 1em 2em;
     border-radius: 0.5em;
@@ -390,13 +390,13 @@ footer{
     height: 4em;
     box-sizing: border-box;
 }
-#hire .input-box span{
+#feedback .input-box span{
     font-size: 1.5em;
 }
-#hire input:focus{
+#feedback input:focus{
     background: rgb(229, 229, 229);
 }
-#hire button.btn{
+#feedback button.btn{
     padding: 0.5em 1em;
     color: white;
     font-weight: 500;
@@ -408,7 +408,7 @@ footer{
     transition: 0.3s ease-in-out;
     background: transparent; 
 }
-#hire button.btn:hover{
+#feedback button.btn:hover{
     background-color: white;
     color: var(--background);
 }
@@ -512,20 +512,23 @@ footer{
     #about ul{
         font-size: 1em;
     }
-    #hire .header{
-        font-size: 3em;
+    #feedback .header{
+        font-size: 2em;
     }
-    #hire .input-box{
-        width: 105%;
-        gap: 0.3em;
+    #feedback .input-box{
+        width: 110%;
+        gap: 0.2em;
     }
-    #hire .input-box input{
+    #feedback .input-box input{
         height: 3.5em;
         font-size: 1em;
     }
-    #hire .input-box input::placeholder{
+    #feedback .input-box input::placeholder{
         font-size: 0.9em;
         text-align: left;
+    }
+    #feedback .input-box span{
+        font-size: 1.2em;
     }
     .back-btn{
         position: fixed;
@@ -613,53 +616,53 @@ footer{
     .social-icons a:hover{
         opacity: 0.8;
     }
-    body.hire-page footer{
+    body.feedback-page footer{
         padding: 2em 5%;
         gap: 2em;
         flex-direction: column;
     }
-    body.hire-page .col-left{
+    body.feedback-page .col-left{
         padding: 0;
         gap: 0.8em;
     }
-    body.hire-page .col-box{
+    body.feedback-page .col-box{
         gap: 1em;
     }
-    body.hire-page .col-box span:last-child{
+    body.feedback-page .col-box span:last-child{
         font-size: 0.9em;
         line-height: 1.3;
     }
-    body.hire-page .col-box i{
+    body.feedback-page .col-box i{
         font-size: 1.3em;
     }
-    body.hire-page .col-right{
+    body.feedback-page .col-right{
         max-width: 100%;
         gap: 0.8em;
     }
-    body.hire-page .col-box span:last-child {
+    body.feedback-page .col-box span:last-child {
         font-size: 0.9em;
         line-height: 1.3;
     }
     
-    body.hire-page .col-box i {
+    body.feedback-page .col-box i {
         font-size: 1.3em;
     }
     
-    body.hire-page .col-right {
+    body.feedback-page .col-right {
         max-width: 100%;
         gap: 0.8em;
     }
     
-    body.hire-page .col-right span {
+    body.feedback-page .col-right span {
         font-size: 1.1em;
     }
     
-    body.hire-page .col-right p {
+    body.feedback-page .col-right p {
         font-size: 0.9em;
         line-height: 1.4;
     }
     
-    body.hire-page .social-icons i {
+    body.feedback-page .social-icons i {
         font-size: 2em;
     }
 }
